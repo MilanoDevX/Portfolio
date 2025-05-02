@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="max-w-xl mx-auto
+    border border-black
+    min-h-dvh
+    bg-gradient-to-b from-black via-sky-950 to-gray-800"
+>
+    <header class="text-white">
+        <img alt="elias-milano" src="./assets/me-big.webp"
+        class="h-96 object-cover mask-radial-at-center mask-radial-from-30% mask-radial-to-80%"
+        >
+        
+        <section class="flex gap-3 justify-center">
+            <a class="bg-white p-2 size-12 flex items-center justify-center 
+            rounded-full hover:scale-110 transition-transform" 
+            href="https://www.linkedin.com/in/elias-milano/" 
+            target="_blank" 
+            aria-label="LinkedIn" 
+            title="Ir a mi perfil"
+            >
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite.svg#linkedin"/>
+                </svg>
+            </a>
+
+            <a class="bg-zinc-800 p-2 size-12 flex items-center justify-center 
+                rounded-full hover:scale-110 transition-transform" 
+                href="https://github.com/MilanoDevX" 
+                target="_blank" 
+                aria-label="Github" 
+                title="Ir a mi Github"
+            >
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite.svg#github"/>
+                </svg>
+            </a>
+
+            <a class="bg-white p-2 size-12 flex items-center justify-center 
+            rounded-full hover:scale-110 transition-transform" 
+            href="mailto:eliasmilano.dev@gmail.com" 
+            target="_blank" 
+            aria-label="Email" 
+            title="Contáctame"
+            >
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite.svg#email"/>
+                </svg>
+            </a>
+        </section>
+ 
+    </header>
+    <main class="text-white">
+        <p>Enlaces a mis proyectos</p>
+        Acá van los proyectos
+    </main>
+    <footer class="text-white">
+        Developed with ❤️ by Elías Milano
+    </footer>
+</body>
+
+</html>

@@ -1,1 +1,1 @@
-# Vaciar el repositorio
+# Practical example of TailwindCSS use
