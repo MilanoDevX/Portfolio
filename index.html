@@ -27,7 +27,8 @@
               bg-black/65
               z-10">
                 eliasmilano.dev@gmail.com
-                <svg class="ml-1 w-5 h-5 text-sky-400 inline" 
+                <!-- Ícono de tick de verificación -->
+                <!-- <svg class="ml-1 w-5 h-5 text-sky-400 inline" 
                   fill="currentColor" 
                   viewBox="0 0 20 20"
                   aria-hidden="true">
@@ -36,7 +37,7 @@
                         00-1.414-1.414L9 11.172l-1.293-1.293a1 1 0 00-1.414 1.414l2 
                         2a1 1 0 001.414 0l4-4z"
                         clip-rule="evenodd" />
-                </svg>
+                </svg> -->
             </span>
 
             <h1 class="text-4xl font-bold leading-tight mt-1 font-display">
@@ -47,24 +48,21 @@
 
 
         <section class="flex gap-3 justify-center">
-            <a class="bg-white p-2 size-12 flex items-center justify-center 
-                rounded-full hover:scale-110 transition-transform" href="https://www.linkedin.com/in/elias-milano/"
+            <a class="bg-white social-button" href="https://www.linkedin.com/in/elias-milano/"
                 target="_blank" aria-label="LinkedIn" title="Ir a mi perfil">
                 <svg width="28" height="28">
                     <use xlink:href="./assets/sprite.svg#linkedin" />
                 </svg>
             </a>
 
-            <a class="bg-black p-2 size-12 flex items-center justify-center 
-                rounded-full hover:scale-110 transition-transform" href="https://github.com/MilanoDevX" target="_blank"
+            <a class="bg-black social-button" href="https://github.com/MilanoDevX" target="_blank"
                 aria-label="Github" title="Ir a mi Github">
                 <svg width="28" height="28">
                     <use xlink:href="./assets/sprite.svg#github" />
                 </svg>
             </a>
 
-            <a class="p-2 size-12 flex items-center justify-center
-                rounded-full hover:scale-110 transition-transform
+            <a class="social-button
                 social-button animate-slide-up-fade animate-delay-200 
                 bg-gradient-to-tr from-yellow-300 via-pink-600 to-purple-600"
                 href="https://www.instagram.com/milanodevx/" target="_blank" aria-label="Instagram"
@@ -75,8 +73,7 @@
             </a>
 
 
-            <a class="bg-white p-2 size-12 flex items-center justify-center 
-                rounded-full hover:scale-110 transition-transform" href="mailto:eliasmilano.dev@gmail.com"
+            <a class="bg-white social-button" href="mailto:eliasmilano.dev@gmail.com"
                 target="_blank" aria-label="Email" title="Contáctame">
                 <svg width="28" height="28">
                     <use xlink:href="./assets/sprite.svg#email" />
@@ -84,16 +81,123 @@
             </a>
         </section>
 
-        <p class="text-sky-400 text-center mt-4 text-sm">
-            Full Stack Software Developer | Javascript | React | Python-Flask
+        <p class="text-sky-400 text-center mt-4 text-sm px-7 text-balance">
+            Desarrollador de software con experiencia en desarrollo de aplicaciones web. Me apasiona crear soluciones prácticas y eficientes.
         </p>
 
     </header>
-    <main class="text-white">
-        <p>Enlaces a mis proyectos</p>
-        Acá van los proyectos
+    <main class="text-white pt-4 pb-12 px-4">
+        <div class="grid grid-cols-4 grid-rows-2 gap-2 w-full">
+            
+            <!-- Proyecto 1 -->
+            <a href="https://github.com/MilanoDevX/Espacio-Novem" 
+              class="relative rounded-3xl overflow-hidden 
+              bg-gradient-to-br from-cyan-900 via-cyan-700 to-cyan-500
+              border border-cyan-900 flex flex-col items-start
+              hover:scale-105 hover:contrast-125
+              transition
+              group
+              col-span-2 p-7 min-h-[180px]"
+            >
+                <span class="absolute bottom-3 left-3 font-bold text-2xl z-10">
+                    Espacio Novem
+                </span>
+                <svg width="100" height="100"
+                  class="absolute -right-4 -bottom-4 -rotate-6 size-28
+                    group-hover:-rotate-12
+                    group-hover:scale-125
+                    transition-transform">
+                    <use xlink:href="./assets/sprite.svg#react"/>
+                </svg>
+                <span class="absolute top-3 left-3 text-xs border rounded-xl
+                  px-1 py-0.5">
+                  Proyecto Full-Stack                
+                </span>
+            </a>
+
+            <!-- Proyecto 2 -->
+            <a href="https://github.com/MilanoDevX/AndaFood" 
+            class="relative rounded-3xl overflow-hidden 
+            bg-gradient-to-br from-[#E44D26] via-[#F16529] to-white
+            border border-[#E44D26] flex flex-col items-start
+            hover:scale-105 hover:contrast-125
+            transition
+            group
+            col-span-2 p-7 min-h-[180px]"
+          >
+              <span class="absolute bottom-3 left-3 font-bold text-2xl z-10">
+                  AndaFood
+              </span>
+              <svg width="100" height="100"
+                class="absolute -right-4 -bottom-4 -rotate-6 size-28
+                  group-hover:-rotate-12
+                  group-hover:scale-125
+                  transition-transform">
+                  <use xlink:href="./assets/sprite.svg#react"/>
+              </svg>
+              <span class="absolute top-3 left-3 text-xs border rounded-xl
+                px-1 py-0.5">
+                Proyecto Full-Stack                
+              </span>
+          </a>
+
+          <!-- Proyecto 3 -->
+          <a href="https://github.com/MilanoDevX/Star-Wars-Blog-React" 
+          class="relative rounded-3xl overflow-hidden 
+          bg-gradient-to-br from-[#663399] via-[#8e44ad] to-white
+          border border-[#215732] flex flex-col items-start
+          hover:scale-105 hover:contrast-125
+          transition
+          group
+          col-span-2 p-7 min-h-[180px]"
+        >
+            <span class="absolute bottom-3 left-3 font-bold text-2xl z-10">
+                Star Wars Blog
+            </span>
+            <svg width="100" height="100"
+              class="absolute -right-4 -bottom-4 -rotate-6 size-28
+                group-hover:-rotate-12
+                group-hover:scale-125
+                transition-transform">
+                <use xlink:href="./assets/sprite.svg#react"/>
+            </svg>
+            <span class="absolute top-3 left-3 text-xs border rounded-xl
+              px-1 py-0.5">
+              Proyecto React.js                
+            </span>
+        </a>
+
+        <!-- Proyecto 4 -->
+        <a href="https://github.com/MilanoDevX/Espacio-Novem" 
+        class="relative rounded-3xl overflow-hidden 
+        bg-gradient-to-br from-[#215732] via-[#3C873A] to-[#8CC84B]
+        border border-[#215732] flex flex-col items-start
+        hover:scale-105 hover:contrast-125
+        transition
+        group
+        col-span-2 p-7 min-h-[180px]"
+      >
+          <span class="absolute bottom-3 left-3 font-bold text-2xl z-10">
+              Próximo Proyecto
+          </span>
+          <svg width="100" height="100"
+            class="absolute -right-4 -bottom-4 -rotate-6 size-28
+              group-hover:-rotate-12
+              group-hover:scale-125
+              transition-transform">
+              <use xlink:href="./assets/sprite.svg#react"/>
+          </svg>
+          <span class="absolute top-3 left-3 text-xs border rounded-xl
+            px-1 py-0.5">
+            Proyecto Full-Stack                
+          </span>
+      </a>
+
+
+
+        </div>
     </main>
-    <footer class="text-white">
+    <footer class="text-white text-center pb-3">
         Developed with ❤️ by Elías Milano
     </footer>
 </body>
