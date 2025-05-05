@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
-/* @plugin "@midudev/tailwind-animations"; */
+@plugin "@midudev/tailwind-animations";
 
-/* @font-face {
+@font-face {
   font-family: 'Inter';
   src: url('/assets/inter.woff2') format('woff2');
   font-style: normal;
   font-weight: 100 700;
   font-display: swap;
-} */
+}
 
 @theme {
   /* Colores */

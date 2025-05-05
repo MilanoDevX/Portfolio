@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Portfolio</title>
+    <title>Elías Milano Dev</title>
     <link rel="stylesheet" href="./assets/output.css">
 </head>
 
@@ -15,7 +15,7 @@
         <img alt="elias-milano" src="./assets/me-big.webp" class="h-96 object-cover 
           mask-radial-at-center 
           mask-radial-from-30% 
-          mask-radial-to-70%">
+          mask-radial-to-70% animate-pulse-fade-in">
 
         <header class="flex flex-col justify-center items-center mb-8 -mt-4">
             <span class="
@@ -48,14 +48,16 @@
 
 
         <section class="flex gap-3 justify-center">
-            <a class="bg-white social-button" href="https://www.linkedin.com/in/elias-milano/"
+            <a class="bg-white social-button animate-slide-up-fade" 
+                href="https://www.linkedin.com/in/elias-milano/"
                 target="_blank" aria-label="LinkedIn" title="Ir a mi perfil">
                 <svg width="28" height="28">
                     <use xlink:href="./assets/sprite.svg#linkedin" />
                 </svg>
             </a>
 
-            <a class="bg-black social-button" href="https://github.com/MilanoDevX" target="_blank"
+            <a class="bg-black social-button animate-slide-up-fade" 
+                href="https://github.com/MilanoDevX" target="_blank"
                 aria-label="Github" title="Ir a mi Github">
                 <svg width="28" height="28">
                     <use xlink:href="./assets/sprite.svg#github" />
@@ -63,7 +65,7 @@
             </a>
 
             <a class="social-button
-                social-button animate-slide-up-fade animate-delay-200 
+                social-button animate-slide-up-fade 
                 bg-gradient-to-tr from-yellow-300 via-pink-600 to-purple-600"
                 href="https://www.instagram.com/milanodevx/" target="_blank" aria-label="Instagram"
                 title="Ir a mi Instagram">
@@ -73,7 +75,8 @@
             </a>
 
 
-            <a class="bg-white social-button" href="mailto:eliasmilano.dev@gmail.com"
+            <a class="bg-white social-button animate-slide-up-fade" 
+                href="mailto:eliasmilano.dev@gmail.com"
                 target="_blank" aria-label="Email" title="Contáctame">
                 <svg width="28" height="28">
                     <use xlink:href="./assets/sprite.svg#email" />
@@ -82,7 +85,7 @@
         </section>
 
         <p class="text-sky-400 text-center mt-4 text-sm px-7 text-balance">
-            Desarrollador de software con experiencia en desarrollo de aplicaciones web. Me apasiona crear soluciones prácticas y eficientes.
+            Desarrollador de aplicaciones web con amplia experiencia en Ingeniería de Procesos. Construyo soluciones creativas y eficientes.
         </p>
 
     </header>
@@ -97,7 +100,7 @@
               hover:scale-105 hover:contrast-125
               transition
               group
-              col-span-2 p-7 min-h-[180px]"
+              col-span-4 p-7 min-h-[180px]"
             >
                 <span class="absolute bottom-3 left-3 font-bold text-2xl z-10">
                     Espacio Novem
@@ -118,7 +121,7 @@
             <!-- Proyecto 2 -->
             <a href="https://github.com/MilanoDevX/AndaFood" 
             class="relative rounded-3xl overflow-hidden 
-            bg-gradient-to-br from-[#E44D26] via-[#F16529] to-white
+            bg-gradient-to-br from-[#E44D26] via-[#F16529] to-[#eb7d4e]
             border border-[#E44D26] flex flex-col items-start
             hover:scale-105 hover:contrast-125
             transition
@@ -144,7 +147,7 @@
           <!-- Proyecto 3 -->
           <a href="https://github.com/MilanoDevX/Star-Wars-Blog-React" 
           class="relative rounded-3xl overflow-hidden 
-          bg-gradient-to-br from-[#663399] via-[#8e44ad] to-white
+          bg-gradient-to-br from-[#663399] via-[#8e44ad] to-[#9d63b6]
           border border-[#215732] flex flex-col items-start
           hover:scale-105 hover:contrast-125
           transition
@@ -175,7 +178,7 @@
         hover:scale-105 hover:contrast-125
         transition
         group
-        col-span-2 p-7 min-h-[180px]"
+        col-span-4 p-7 min-h-[180px]"
       >
           <span class="absolute bottom-3 left-3 font-bold text-2xl z-10">
               Próximo Proyecto
@@ -197,7 +200,7 @@
 
         </div>
     </main>
-    <footer class="text-white text-center pb-3">
+    <footer class="text-sky-400 text-center pb-3">
         Developed with ❤️ by Elías Milano
     </footer>
 </body>
